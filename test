@@ -1,0 +1,72 @@
+local OrionLib = loadstring(game:HttpGet(('https://raw.githubusercontent.com/vinh12eqweaws/zingmods/refs/heads/main/zingpro')))()
+
+local Window = OrionLib:MakeWindow({Name = "Hoàng Minh Nghĩa HUB", HidePremium = false, SaveConfig = true, ConfigFolder = "dxl_bf"})
+
+local Tab = Window:MakeTab({
+	Name = "script",
+	Icon = "rbxassetid://4483345998",
+	PremiumOnly = false
+})
+
+local Tab2 = Window:MakeTab({
+	Name = "steal an egg",
+	Icon = "rbxassetid://4483345998",
+	PremiumOnly = false
+})
+local Tab3 = Window:MakeTab({
+	Name = "khác",
+	Icon = "rbxassetid://4483345998",
+	PremiumOnly = false
+})
+Tab2:AddButton({
+	Name = "night hub",
+	Callback = function()
+        repeat wait(5) until game:IsLoaded()
+loadstring(game:HttpGet("https://raw.githubusercontent.com/WhiteX1208/Scripts/refs/heads/main/StealAnEggs.luau"))()
+end
+})
+Tab2:AddButton({
+	Name = "miranda hub",
+	Callback = function()
+        repeat wait(5) until game:IsLoaded()
+loadstring(game:HttpGet("https://raw.githubusercontent.com/miirandahub/loader/refs/heads/main/stealaeggs"))()
+end
+})
+Tab3:AddButton({
+	Name = "speed and fly",
+	Callback = function()
+        repeat wait(5) until game:IsLoaded()
+loadstring(game:HttpGet("https://raw.githubusercontent.com/nghiavip201687-glitch/a/refs/heads/main/a"))()
+end
+}) 
+Tab3:AddButton({
+	Name = "fix lag",
+	Callback = function()
+        repeat wait(5) until game:IsLoaded()
+end
+})
+Tab2:AddButton({
+	Name = "sena hub",
+	Callback = function()
+        repeat wait(5) until game:IsLoaded()
+end
+})
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
